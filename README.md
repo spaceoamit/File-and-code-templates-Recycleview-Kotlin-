@@ -1,6 +1,9 @@
 # File-and-code-templates-Recycleview-Kotlin-
 File &amp; code template for kotlin Recycleview. Generate adapter with minimum information
 
+Go to settings >> File and Code Templates >> click on "+" button add classname & extension as "kt"
+
+
 
 ```
 #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME}
@@ -46,3 +49,6 @@ class ${AdapterName}(private val itemList: List<${ModelClass}>, private val item
 }
 
 ```
+
+You can find template with new file, pick added template, define appropriate parameters.
+
